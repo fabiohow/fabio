@@ -1,0 +1,15 @@
+x = int(input("Natália. Digite um número e eu informarei se ele é primo ou não: "))
+if (x%2) == 0 and x!=2:
+    print("O número " , x, "não é primo, pois é divisível por 2")
+elif (x%3) == 0 and x!=3:
+    print("O número " , x, "não é primo, pois é divisível por 3")
+elif (x%5) == 0 and x!=5:
+    print("O número " , x, "não é primo, pois é divisível por 5")
+elif (x%7) == 0 and x!=7:
+    print("O número " , x, "não é primo, pois é divisível por 7")
+elif (x%9) == 0 and x!=9:
+    print("O número " , x, "não é primo, pois é divisível por 9")
+elif x==1:
+    print("O número " , x, "não é primo")
+else:
+    print("O número " , x, "é primo")
